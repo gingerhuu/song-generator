@@ -64,7 +64,7 @@ button1.addEventListener("click", function() {
 
 button2.addEventListener("click", function() {
   console.log("hi")
-  newDecimal = Math.random(sadSong.length - 1) * 13
+  newDecimal = Math.random(sadSong.length - 1) * 15
   newNum = Math.floor(newDecimal)
   sadSong.textContent = sadSonglist[newNum]
 })
