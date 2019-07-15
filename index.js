@@ -22,7 +22,11 @@ var happySonglist = [
   "'Happy' by Pharrell Williams",
   "'I Gotta Feeling' by The Black Eyed Peas",
   "'Don't Stop Believin'' by Journey",
-  "'Count on Me' by Bruno Mars"
+  "'Count on Me' by Bruno Mars",
+  "'Babe' by Sugarland",
+  "'Better Man' by Little Big Town",
+  "'You Belong With Me' by Taylor Swift",
+  "'You'll Always Find Your WAy Back Home' by Hannah Montana"
 ]
 
 var sadSonglist = [
@@ -40,7 +44,8 @@ var sadSonglist = [
   "'Crush Culture' by Conan Gray",
   "'Lookalike' by Conan Gray",
   "'Supermarket Flowers' by Ed Sheeran",
-  "'Lovely'by Khalid",
+  "'Lovely' by Khalid",
+  "'Moon River' by Frank Ocean"
 ]
 
 var chillSonglist = [
@@ -53,25 +58,32 @@ var chillSonglist = [
   "'Halo' by Lotter Kestner",
   "'watch' by Billie Eilish",
   "'Delicate' by Taylor Swift"
+  "'Pink + White' by Frank Ocean",
+  "'Butterfly' by UMI",
+  "'Beach House' by HOAX",
+  "'Stoop So Low' by Kehlani",
+  "'I Need You' by The Pesky Snakes",
+  "'This Universe' by UMI",
+  "'Talk' by Khalid"
 ]
 
 button1.addEventListener("click", function() {
   console.log("hi")
-  newDecimal = Math.random(happySong.length - 1) * 17
+  newDecimal = Math.random(happySong.length - 1) * 21
   newNum = Math.floor(newDecimal)
   happySong.textContent = happySonglist[newNum]
 })
 
 button2.addEventListener("click", function() {
   console.log("hi")
-  newDecimal = Math.random(sadSong.length - 1) * 13
+  newDecimal = Math.random(sadSong.length - 1) * 16
   newNum = Math.floor(newDecimal)
   sadSong.textContent = sadSonglist[newNum]
 })
 
 button3.addEventListener("click", function() {
   console.log("hi")
-  newDecimal = Math.random(chillSong.length - 1) * 9
+  newDecimal = Math.random(chillSong.length - 1) * 16
   newNum = Math.floor(newDecimal)
   chillSong.textContent = chillSonglist[newNum]
 })
