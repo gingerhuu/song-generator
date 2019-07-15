@@ -40,7 +40,7 @@ var sadSonglist = [
   "'Crush Culture' by Conan Gray",
   "'Lookalike' by Conan Gray",
   "'Supermarket Flowers' by Ed Sheeran",
-  "'Lovely'by Khalid",
+  "'Lovely'by Khalid"
 ]
 
 var chillSonglist = [
@@ -55,30 +55,30 @@ var chillSonglist = [
   "'Delicate' by Taylor Swift"
 ]
 
-button1.addEventListener("click", function() {
+button1.addEventListener("click", function) {
   console.log("hi")
   newDecimal = Math.random(happySong.length - 1) * 17
   newNum = Math.floor(newDecimal)
   happySong.textContent = happySonglist[newNum]
-})
+}
 
-button2.addEventListener("click", function() {
+button2.addEventListener("click", function) {
   console.log("hi")
   newDecimal = Math.random(sadSong.length - 1) * 15
   newNum = Math.floor(newDecimal)
   sadSong.textContent = sadSonglist[newNum]
-})
+}
 
-button3.addEventListener("click", function() {
+button3.addEventListener("click", function) {
   console.log("hi")
   newDecimal = Math.random(chillSong.length - 1) * 9
   newNum = Math.floor(newDecimal)
   chillSong.textContent = chillSonglist[newNum]
-}) {
+} 
 var string = "So, what are we feeling today?";
 var str = string.split("");
 var el = document.getElementById('str');
-(function animate() {
+function animate() {
 str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running);
 var running = setTimeout(animate, 90);
 })();
