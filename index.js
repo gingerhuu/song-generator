@@ -38,7 +38,9 @@ var sadSonglist = [
   "'Perfect Day (A True Story)' by Gabbie Hanna",
   "'Unloved' by Lisa Cimorelli",
   "'Crush Culture' by Conan Gray",
-  "'Lookalike' by Conan Gray"
+  "'Lookalike' by Conan Gray",
+  "'Supermarket Flowers' by Ed Sheeran", 
+  "'Lovely'by Khalid",
 ]
 
 var chillSonglist = [
