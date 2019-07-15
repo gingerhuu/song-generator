@@ -39,7 +39,7 @@ var sadSonglist = [
   "'Unloved' by Lisa Cimorelli",
   "'Crush Culture' by Conan Gray",
   "'Lookalike' by Conan Gray",
-  "'Supermarket Flowers' by Ed Sheeran", 
+  "'Supermarket Flowers' by Ed Sheeran",
   "'Lovely'by Khalid",
 ]
 
