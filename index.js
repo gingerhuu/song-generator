@@ -6,19 +6,41 @@ var sadSong = document.querySelector('.sad-song');
 var chillSong = document.querySelector('.chill-song');
 
 var happySonglist = [
-  "'The biggest adventure you can ever take is to live the life of your dreams.' –Oprah Winfrey",
-  "'The most difficult thing is the decision to act, the rest is merely tenacity.' –Amelia Earhart.",
-  "'Great minds discuss ideas, average minds discuss events, small minds discuss people.' -Eleanor Roosevelt",
-  "'Let us pick up our books and our pens. They are our most powerful weapons. One child, one teacher, one book, and one pen can change the world.' –Malala Yousafzai",
-  "'We do not need magic to change the world, we carry all the power we need inside ourselves already: we have the power to imagine better.' -J.K. Rowling"
+  "'If I Can't Have You' by Shawn Mendes",
+  "'Long Live' by Taylor Swift",
+  "'Love Story' by Taylor Swift",
+  "'Señorita' by Shawn Mendes and Camila Cabello ",
+  "'Come To Brazil' by Why Don't We",
+  "'Truthfully' by DNCE",
+  "'Babe' by Sugarland",
+  "'no tears left to cry' by Ariana Grande",
+  "'Run the World (Girls)' by Beyoncé",
+  "'2002' by Anne-Marie",
+  "'Wake Me Up' by Avicii",
+  "'Clearly' by Grace VanderWaal",
+  "'Happier' by Marshmello ft. Bastille",
+  "'Happy' by Pharrell Williams",
+  "'I Gotta Feeling' by The Black Eyed Peas",
+  "'Don't Stop Believin'' by Journey",
+  "'Count on Me' by Bruno Mars"
 ]
 
 var sadSonglist = [
-  "'The biggest adventure you can ever take is to live the life of your dreams.' –Oprah Winfrey",
-  "'The most difficult thing is the decision to act, the rest is merely tenacity.' –Amelia Earhart.",
-  "'Great minds discuss ideas, average minds discuss events, small minds discuss people.' -Eleanor Roosevelt",
-  "'Let us pick up our books and our pens. They are our most powerful weapons. One child, one teacher, one book, and one pen can change the world.' –Malala Yousafzai",
-  "'We do not need magic to change the world, we carry all the power we need inside ourselves already: we have the power to imagine better.' -J.K. Rowling"
+  "'Last Kiss' by Taylor Swift",
+  "'Say Something' by A Great Big World",
+  "'Say You Won't Let Go' by James Arthur",
+  "'Happier' by Ed Sheeran",
+  "'His Daughter' by Molly Kate Kestner",
+  "'Million Reasons' by Lady Gaga",
+  "'Skinny Love' by Bon Iver",
+  "'arms' by Christina Perri",
+  "'All Too Well' by Taylor Swift",
+  "'Perfect Day (A True Story)' by Gabbie Hanna",
+  "'Unloved' by Lisa Cimorelli",
+  "'Crush Culture' by Conan Gray",
+  "'Lookalike' by Conan Gray",
+  "'Supermarket Flowers' by Ed Sheeran",
+  "'Lovely'by Khalid",
 ]
 
 var chillSonglist = [
@@ -28,26 +50,35 @@ var chillSonglist = [
   "'This Years Love' by David Gray",
   "'Fix You' by Canyon City",
   "'Time After Time' by Iron & Wine",
-  "'Halo' by Lotter Kestner"
+  "'Halo' by Lotter Kestner",
+  "'watch' by Billie Eilish",
+  "'Delicate' by Taylor Swift"
 ]
 
 button1.addEventListener("click", function() {
   console.log("hi")
-  newDecimal = Math.random(happySong.length - 1) * 5
+  newDecimal = Math.random(happySong.length - 1) * 17
   newNum = Math.floor(newDecimal)
   happySong.textContent = happySonglist[newNum]
 })
 
 button2.addEventListener("click", function() {
   console.log("hi")
-  newDecimal = Math.random(sadSong.length - 1) * 5
+  newDecimal = Math.random(sadSong.length - 1) * 13
   newNum = Math.floor(newDecimal)
   sadSong.textContent = sadSonglist[newNum]
 })
 
 button3.addEventListener("click", function() {
   console.log("hi")
-  newDecimal = Math.random(chillSong.length - 1) * 5
+  newDecimal = Math.random(chillSong.length - 1) * 9
   newNum = Math.floor(newDecimal)
   chillSong.textContent = chillSonglist[newNum]
 })
+var string = "So, what are we feeling today?";
+var str = string.split("");
+var el = document.getElementById('str');
+(function animate() {
+str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running);
+var running = setTimeout(animate, 90);
+})();

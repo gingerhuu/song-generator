@@ -1,1 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 
+body {
+  font-family: 'Raleway', sans-serif;
+  /* padding: 1em 2em; */
+  font-size: 18px;
+  background: #222;
+  color: #aaa
+}
+#str {
+  font-size: 50px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    background: #222;
+    color: #aaa
+}
+button {
+  height: 35px;
+    width: 70px;
+    border-radius: 5px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #222;
+    background: #f2f3f5;
+}
+
+#mountins {
+  position: absolute;
+  bottom: 0;
+  height: 300px;
+  width: 100%;
+  z-index: -1;
+}
+
+p {
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+/* h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 { font-size: 3.5em; }
+h2 {
+  color: #888;
+  font-size: 2em;
+} */
