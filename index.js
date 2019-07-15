@@ -74,7 +74,7 @@ button3.addEventListener("click", function() {
   newDecimal = Math.random(chillSong.length - 1) * 9
   newNum = Math.floor(newDecimal)
   chillSong.textContent = chillSonglist[newNum]
-})
+}) {
 var string = "So, what are we feeling today?";
 var str = string.split("");
 var el = document.getElementById('str');
