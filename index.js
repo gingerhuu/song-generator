@@ -40,7 +40,7 @@ var sadSonglist = [
   "'Crush Culture' by Conan Gray",
   "'Lookalike' by Conan Gray",
   "'Supermarket Flowers' by Ed Sheeran",
-  "'Lovely'by Khalid"
+  "'Lovely' by Khalid"
 ]
 
 var chillSonglist = [
